@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_movie"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="电影" />
+        <item
+            android:id="@+id/nav_TV"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="电视剧" />
+
+        <item
+            android:id="@+id/nav_comic"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="动漫" />
+        <item
+            android:id="@+id/nav_media"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="综艺" />
+        <!--
+                <item
+                    android:id="@+id/nav_music"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="音乐MV" />
+
+                <item
+                    android:id="@+id/nav_short_movie"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="短片" />-->
+        <item
+            android:id="@+id/nav_open_class"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="公开课" />
+
+
+    </group>
+
+
+
+</menu>
